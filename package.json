@@ -1,0 +1,33 @@
+{
+  "name": "design-system",
+  "version": "0.0.1",
+  "description": "Bem-vindo ao Meu Design System! Este é um projeto de Design System construído para facilitar a criação de interfaces consistentes e reutilizáveis no React. Utilizamos a biblioteca Stitches para estilos, a biblioteca Radix UI para componentes e o Storybook para o desenvolvimento e visualização dos componentes.",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "@progamo/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Progamo/progamo-ui.git"
+  },
+  "keywords": [
+    "Design",
+    "System",
+    "Ui",
+    "Progamo"
+  ],
+  "author": "Manoel Neto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Progamo/progamo-ui/issues"
+  },
+  "homepage": "https://github.com/Progamo/progamo-ui#readme",
+  "devDependencies": {
+    "turbo": "1.10.2"
+  }
+}

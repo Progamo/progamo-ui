@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@progamo-ui/eslint-config/react",
+    "plugin:storybook/recommended"
+  ]
+}

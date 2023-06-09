@@ -1,0 +1,35 @@
+{
+  "name": "@progamo-ui/tokens",
+  "version": "0.0.1",
+  "description": "Design System",
+	"main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+		"build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+		"lint": "eslint src --ext .ts,.tsx --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Progamo/progamo-ui.git"
+  },
+  "keywords": [
+    "Design",
+    "System",
+    "Ui",
+		"Progamo",
+		"componentes"
+  ],
+  "author": "Manoel Neto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Progamo/progamo-ui/issues"
+  },
+  "homepage": "https://github.com/Progamo/progamo-ui#readme",
+  "devDependencies": {
+		"@progamo-ui/eslint-config": "*",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
+}

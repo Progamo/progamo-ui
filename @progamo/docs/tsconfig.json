@@ -1,0 +1,4 @@
+{
+  "extends": "@progamo-ui/ts-config/react.json",
+  "include": ["src"]
+}
