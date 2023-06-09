@@ -1,10 +1,10 @@
 {
 	"name": "@progamo-ui/react",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "",
 	"main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "tsup src/index.tsx --format esm,cjs --dts --external react",
 		"dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
