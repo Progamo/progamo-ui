@@ -1,0 +1,4 @@
+import{j as o,a as e,F as s}from"./jsx-runtime-a8c9cf40.js";import{M as a}from"./chunk-PCJTTTQV-7b0d0c02.js";import{T as m}from"./TokensGrid-35fc3d60.js";import{r as d}from"./index-bc9d87ed.js";import{u as n}from"./index-8e696f62.js";import"./index-532c4ca3.js";import"./_commonjsHelpers-042e6b4d.js";import"./iframe-20f6f80b.js";import"../sb-preview/runtime.js";import"./index-6a2ae823.js";import"./index-d475d2ea.js";import"./index-d37d4223.js";import"./extends-98964cd2.js";import"./index-356e4a49.js";function i(t){const r=Object.assign({h1:"h1"},n(),t.components);return e(s,{children:[o(a,{title:"Tokens/Radii"}),`
+`,o(r.h1,{id:"radii-border-radius",children:'Radii "Border Radius"'}),`
+`,o(m,{tokens:d})]})}function O(t={}){const{wrapper:r}=Object.assign({},n(),t.components);return r?o(r,Object.assign({},t,{children:o(i,t)})):i(t)}export{O as default};
+//# sourceMappingURL=Radii.-40222b59.js.map

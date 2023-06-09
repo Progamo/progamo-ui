@@ -1,0 +1,4 @@
+import{j as o,a as r,F as s}from"./jsx-runtime-a8c9cf40.js";import{M as m}from"./chunk-PCJTTTQV-7b0d0c02.js";import{T as a}from"./TokensGrid-35fc3d60.js";import{a as p}from"./index-bc9d87ed.js";import{u as i}from"./index-8e696f62.js";import"./index-532c4ca3.js";import"./_commonjsHelpers-042e6b4d.js";import"./iframe-20f6f80b.js";import"../sb-preview/runtime.js";import"./index-6a2ae823.js";import"./index-d475d2ea.js";import"./index-d37d4223.js";import"./extends-98964cd2.js";import"./index-356e4a49.js";function e(t){const n=Object.assign({h1:"h1"},i(),t.components);return r(s,{children:[o(m,{title:"Tokens/Font Weights"}),`
+`,o(n.h1,{id:"font-weights",children:"Font Weights"}),`
+`,o(a,{tokens:p})]})}function D(t={}){const{wrapper:n}=Object.assign({},i(),t.components);return n?o(n,Object.assign({},t,{children:o(e,t)})):e(t)}export{D as default};
+//# sourceMappingURL=Font-weights-e0e73d3d.js.map
