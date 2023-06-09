@@ -12,6 +12,12 @@ const config = {
   },
   docs: {
     autodocs: "tag",
-  }
+  },
+	viteFinal: (config, { configType }) => {
+		if (configType === 'PRODUCTION') {
+			config.base = '/progamo-ui/';
+		}
+		return config;
+	}
 };
 export default config;
